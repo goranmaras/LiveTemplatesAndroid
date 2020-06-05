@@ -1,0 +1,20 @@
+class $ADAPTERNAME$: androidx.recyclerview.widget.RecyclerView.Adapter<$ADAPTERNAME$.MyViewHolder>() {
+
+    class MyViewHolder(itemView: android.view.View) : androidx.recyclerview.widget.RecyclerView.ViewHolder(itemView) {
+
+    }
+
+    override fun onCreateViewHolder(parent: android.view.ViewGroup, viewType: Int): MyViewHolder {
+        val view = android.view.LayoutInflater.from(parent.context).inflate(R.layout.$LAYOUT$, parent, false)
+        return MyViewHolder(view)
+    }
+
+    override fun getItemCount(): Int {
+        TODO("Not yet implemented")
+    }
+
+    override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
+        TODO("Not yet implemented")
+    }
+
+}
